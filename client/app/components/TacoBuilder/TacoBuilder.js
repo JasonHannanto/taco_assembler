@@ -45,7 +45,7 @@ class TacoBuilder extends Component {
 
   descriptionCreator() {
     fetch(
-      "http://words.bighugelabs.com/api/2/fefa6c748351403c39dc26afe7520e2c/delicious/json"
+      "https://words.bighugelabs.com/api/2/fefa6c748351403c39dc26afe7520e2c/delicious/json"
     )
       .then(res => res.json())
       .then(json => {
@@ -114,7 +114,7 @@ class TacoBuilder extends Component {
       Math.floor(Math.random() * this.state.seasonings.length)
     ].name;
     fetch(
-      "http://words.bighugelabs.com/api/2/fefa6c748351403c39dc26afe7520e2c/delicious/json"
+      "https://words.bighugelabs.com/api/2/fefa6c748351403c39dc26afe7520e2c/delicious/json"
     )
       .then(res => res.json())
       .then(json => {

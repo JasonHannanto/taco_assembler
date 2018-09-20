@@ -1,0 +1,79 @@
+ul {
+  list-style: none;
+}
+body,
+html {
+  //   overflow: hidden;
+  margin: 10px;
+  min-width: 1060px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+h3 {
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.title {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.taco_builder {
+  min-width: 620px;
+  padding: 45px;
+  border: 1px solid #bdbdbd;
+}
+.taco_summary {
+  z-index: -999;
+  background-color: #ffffff;
+  height: 540px;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #bdbdbd;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  text-align: center;
+  margin-left: 80px;
+  z-index: 3;
+}
+.taco_list {
+  overflow: hidden;
+  z-index: 999;
+  border: 1px solid #bdbdbd;
+  //   background-color: lightcoral;
+  padding: 50px;
+}
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.taco_summary {
+  overflow: auto;
+}
+
+.items {
+  //   width: 275px;
+  //   height: 30px;
+  //   display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.items:hover {
+  cursor: pointer;
+  background-color: #03a9f4;
+  color: white;
+  //   box-shadow: 0 0 3pt 2pt #00bcd4;
+}
+
+.categories {
+  text-align: center;
+}

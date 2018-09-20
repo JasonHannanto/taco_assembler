@@ -1,16 +1,10 @@
-# Taco Assembler 
+# Taco Assembler
 
-Generate your Tacos. 
+Generate your Tacos.
 
-<br/>
+[Heroku Link](https://taco-assembler.herokuapp.com/)
 
-<!-- ![Alt Text]() -->
-
-<br/>
-
-<!-- [High Resolution Link]() -->
-
-<br>
+- Development Time: ~1 Day
 
 ## Built With
 
@@ -18,10 +12,15 @@ Front End:
 * [React](https://facebook.github.io/react/)
 
 Back End:
-* [Express](http://expressjs.com/)
+* [Node](https://nodejs.org/en/)
+
+APIS:
+* [Big Huge Thesaurus](https://words.bighugelabs.com)
+* ClickTime API
 
 Styling:
 * [Sass](http://sass-lang.com/)
+* [Semantic React](https://react.semantic-ui.com/)
 
 Compilation:
 * [Webpack](https://webpack.github.io/)
@@ -40,7 +39,7 @@ Node.js 6+
 3) npm install
 ```
 
-## Running 
+## Running
 
 Production mode:
 ```

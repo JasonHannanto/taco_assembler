@@ -2,7 +2,7 @@
 
 Generate your Tacos.
 
-[Heroku Link](https://taco-assembler.herokuapp.com/)
+[Heroku Link](http://taco-assembler.herokuapp.com/)
 
 ## To ClickTime Engineers
 - This webapp was developed within approximately 1 day. As I am currently actively interviewing with many companies as well, I was unable to allocate additional time to the webapp. As such, I focused on functionality over design. There are some styling bugs and it doesn't look the preetiest, but I hope you can consider that I brought this up mostly within 1 day. Nonetheless, if you would like to comment on the project please feel free to reach out to me!
